@@ -65,7 +65,7 @@
     "publicIPAddressName": "[concat(variables('scenarioPrefix'), 'PublicIP')]",
     "vmName": "[concat(variables('scenarioPrefix'), 'VM')]",
     "vmExtensionName": "[concat(variables('scenarioPrefix'), 'Init')]",
-    "_artifactsLocation": "https://raw.githubusercontent.com/Azure/azure-devops-utils/master/",
+    "_artifactsLocation": "https://raw.githubusercontent.com/kbilgund/azure-devops-utils/master/",
     "_extensionScript": "301-jenkins-aptly-spinnaker-vmss.sh",
     "_artifactsLocationSasToken": "",
     "linuxConfiguration": {
